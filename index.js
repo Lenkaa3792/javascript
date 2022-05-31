@@ -18,4 +18,18 @@ document.write( name + "<br>" );
 var age = 23;
 var city = 'Nairobi';
 var car = 'lexus';
-document.write('My name is ' + name +'.'+'I live in '+ city + ' and i drive a ' + car <'br>')
+ document.write("My name is " + name + "." + "I live in " + city + " and I drive a " + car <
+     "br>");
+//if statements
+
+let favoriteNumber = 50;
+if (favoriteNumber >= 10) {
+  // evaluating favoriteNumber >= 10 returns true
+  favoriteNumber = favoriteNumber + 10;
+}
+document.write(favoriteNumber +'<br');
+
+let bestCar = "lexus";
+if (bestCar !== "ford") {
+  document.write("you are out");
+}
